@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="548" id="KGk-i7-Jjw" customClass="DetailCell" customModule="Medicines" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="548"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="548"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Description Label" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F03-EQ-Pgn">
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="43"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhx-hf-P7D">
+                        <rect key="frame" x="0.0" y="41.5" width="393" height="38"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Manufacturer Name" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dZ-51-L0m">
+                        <rect key="frame" x="0.0" y="87.5" width="393" height="41.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUc-Gk-K4G">
+                        <rect key="frame" x="0.0" y="129" width="393" height="38"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Packaging Description" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSv-AO-be8">
+                        <rect key="frame" x="0.0" y="175" width="393" height="41.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miQ-Gh-JYy">
+                        <rect key="frame" x="0.0" y="216.5" width="393" height="38"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Composition Description" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ou-NG-OBR">
+                        <rect key="frame" x="0.0" y="262.5" width="393" height="41.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFO-5o-QsF">
+                        <rect key="frame" x="0.0" y="304" width="393" height="38"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Composition Inn" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veX-ZG-Izb">
+                        <rect key="frame" x="0.0" y="350" width="393" height="41.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upt-ag-05S">
+                        <rect key="frame" x="0.0" y="391.5" width="393" height="38"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="pharm_form" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JT8-Q8-T0G">
+                        <rect key="frame" x="0.0" y="438.5" width="393" height="41.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygk-Wg-imR">
+                        <rect key="frame" x="0.0" y="488" width="393" height="60"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="fhx-hf-P7D" firstAttribute="top" secondItem="F03-EQ-Pgn" secondAttribute="bottom" id="1hd-XZ-TWr"/>
+                    <constraint firstItem="miQ-Gh-JYy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1jw-lG-j9V"/>
+                    <constraint firstAttribute="trailing" secondItem="F03-EQ-Pgn" secondAttribute="trailing" id="3M5-BE-8wk"/>
+                    <constraint firstAttribute="trailing" secondItem="veX-ZG-Izb" secondAttribute="trailing" id="5Jg-Id-5Ab"/>
+                    <constraint firstAttribute="bottom" secondItem="ygk-Wg-imR" secondAttribute="bottom" id="6mt-Aq-nky"/>
+                    <constraint firstItem="3dZ-51-L0m" firstAttribute="top" secondItem="fhx-hf-P7D" secondAttribute="bottom" constant="8" id="9zA-PY-OgS"/>
+                    <constraint firstItem="zSv-AO-be8" firstAttribute="top" secondItem="sUc-Gk-K4G" secondAttribute="bottom" constant="8" id="Cnw-ZS-3Jc"/>
+                    <constraint firstItem="gFO-5o-QsF" firstAttribute="top" secondItem="5ou-NG-OBR" secondAttribute="bottom" id="DGI-1L-9Wl"/>
+                    <constraint firstItem="JT8-Q8-T0G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FoC-Se-spA"/>
+                    <constraint firstAttribute="trailing" secondItem="fhx-hf-P7D" secondAttribute="trailing" id="H5a-gg-w4i"/>
+                    <constraint firstItem="F03-EQ-Pgn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LT1-Xa-RIG"/>
+                    <constraint firstItem="fhx-hf-P7D" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Lcr-1D-ZPj"/>
+                    <constraint firstItem="sUc-Gk-K4G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="MTR-HE-dCI"/>
+                    <constraint firstItem="3dZ-51-L0m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Mpf-Zu-Nbk"/>
+                    <constraint firstItem="ygk-Wg-imR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="O2K-w8-QBX"/>
+                    <constraint firstItem="gFO-5o-QsF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OlN-9m-qvp"/>
+                    <constraint firstItem="miQ-Gh-JYy" firstAttribute="top" secondItem="zSv-AO-be8" secondAttribute="bottom" id="Qgj-Qn-M51"/>
+                    <constraint firstItem="JT8-Q8-T0G" firstAttribute="top" secondItem="upt-ag-05S" secondAttribute="bottom" constant="9" id="RdU-4Y-LfE"/>
+                    <constraint firstAttribute="trailing" secondItem="sUc-Gk-K4G" secondAttribute="trailing" id="RoH-kM-qBq"/>
+                    <constraint firstAttribute="trailing" secondItem="ygk-Wg-imR" secondAttribute="trailing" id="SGp-7B-SV0"/>
+                    <constraint firstAttribute="trailing" secondItem="3dZ-51-L0m" secondAttribute="trailing" id="Tqi-iT-573"/>
+                    <constraint firstItem="veX-ZG-Izb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="W6J-X8-90O"/>
+                    <constraint firstItem="5ou-NG-OBR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZCy-5o-dHi"/>
+                    <constraint firstItem="zSv-AO-be8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="a64-uG-Rw6"/>
+                    <constraint firstAttribute="trailing" secondItem="upt-ag-05S" secondAttribute="trailing" id="e6v-se-nGP"/>
+                    <constraint firstAttribute="trailing" secondItem="miQ-Gh-JYy" secondAttribute="trailing" id="eHM-BV-JxE"/>
+                    <constraint firstItem="F03-EQ-Pgn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eI8-Dy-WLv"/>
+                    <constraint firstItem="5ou-NG-OBR" firstAttribute="top" secondItem="miQ-Gh-JYy" secondAttribute="bottom" constant="8" id="eU5-Cm-aAr"/>
+                    <constraint firstItem="ygk-Wg-imR" firstAttribute="top" secondItem="JT8-Q8-T0G" secondAttribute="bottom" id="eV6-cq-ekQ"/>
+                    <constraint firstItem="veX-ZG-Izb" firstAttribute="top" secondItem="gFO-5o-QsF" secondAttribute="bottom" constant="8" id="fHf-Fr-sEB"/>
+                    <constraint firstAttribute="trailing" secondItem="5ou-NG-OBR" secondAttribute="trailing" id="gFF-Us-pJc"/>
+                    <constraint firstAttribute="trailing" secondItem="zSv-AO-be8" secondAttribute="trailing" id="lGw-vW-YCk"/>
+                    <constraint firstAttribute="trailing" secondItem="JT8-Q8-T0G" secondAttribute="trailing" id="low-BG-quv"/>
+                    <constraint firstItem="upt-ag-05S" firstAttribute="top" secondItem="veX-ZG-Izb" secondAttribute="bottom" id="nln-hE-XKI"/>
+                    <constraint firstItem="sUc-Gk-K4G" firstAttribute="top" secondItem="3dZ-51-L0m" secondAttribute="bottom" id="oV8-oK-RkI"/>
+                    <constraint firstAttribute="trailing" secondItem="gFO-5o-QsF" secondAttribute="trailing" id="r42-CG-6XR"/>
+                    <constraint firstItem="upt-ag-05S" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wBd-Uq-gAc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="compositionDescription" destination="gFO-5o-QsF" id="UdW-NN-9Dv"/>
+                <outlet property="compositionInn" destination="upt-ag-05S" id="K5a-M9-Uld"/>
+                <outlet property="descriptionLabel" destination="fhx-hf-P7D" id="vSf-vt-SAU"/>
+                <outlet property="manufacturerName" destination="sUc-Gk-K4G" id="wZ7-jU-xNo"/>
+                <outlet property="packagingDescription" destination="miQ-Gh-JYy" id="r3N-ob-QVD"/>
+                <outlet property="pharmForm" destination="ygk-Wg-imR" id="EsC-UZ-HJS"/>
+            </connections>
+            <point key="canvasLocation" x="187.68115942028987" y="205.58035714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

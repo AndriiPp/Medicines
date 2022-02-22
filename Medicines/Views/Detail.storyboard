@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DetailVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="detailStory" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DetailVC" customModule="Medicines" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4b-ve-G9u">
+                                <rect key="frame" x="27" y="747" width="360" height="43"/>
+                                <color key="backgroundColor" red="0.36862745098039218" green="0.47058823529411764" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="SYF-Hc-92T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="SAVE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Zvl-1d-cEl"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dQX-hS-hjs">
+                                <rect key="frame" x="0.0" y="44" width="414" height="677"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="dQX-hS-hjs" secondAttribute="trailing" id="2jW-jk-vPO"/>
+                            <constraint firstItem="a4b-ve-G9u" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="27" id="4bV-V4-fCY"/>
+                            <constraint firstItem="dQX-hS-hjs" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="HOI-Td-aur"/>
+                            <constraint firstItem="a4b-ve-G9u" firstAttribute="top" secondItem="dQX-hS-hjs" secondAttribute="bottom" constant="26" id="L3f-q5-B98"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="a4b-ve-G9u" secondAttribute="bottom" constant="72" id="mNe-2B-pie"/>
+                            <constraint firstItem="dQX-hS-hjs" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="wGa-ap-SmL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="a4b-ve-G9u" secondAttribute="trailing" constant="27" id="zDd-a6-QrK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="dQX-hS-hjs" id="KcM-2C-mTD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+</document>
